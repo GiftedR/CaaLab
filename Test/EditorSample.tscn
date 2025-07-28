@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=3 uid="uid://cveptqlh48o1l"]
+
+[ext_resource type="Theme" uid="uid://n3uj5ao4cij1" path="res://Theme/GodotPixel.tres" id="1_4m0qd"]
+
+[node name="EditorSample" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_4m0qd")
+
+[node name="clr2_bg_color" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.2, 0.2, 0.2, 1)
+
+[node name="vbc2_Main" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="hbc2_Utils" type="HBoxContainer" parent="vbc2_Main"]
+layout_mode = 2
+
+[node name="mbn2_Scene" type="MenuButton" parent="vbc2_Main/hbc2_Utils"]
+layout_mode = 2
+text = "Scene"
+
+[node name="mbn2_Project" type="MenuButton" parent="vbc2_Main/hbc2_Utils"]
+layout_mode = 2
+text = "Scene"
+
+[node name="mbn2_Debug" type="MenuButton" parent="vbc2_Main/hbc2_Utils"]
+layout_mode = 2
+text = "Scene"

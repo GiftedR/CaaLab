@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://xbu3vqh5sa60"]
+
+[ext_resource type="Script" uid="uid://cnmuu851a8yku" path="res://Root/AppRoot.cs" id="1_bxs3i"]
+
+[node name="AppRoot" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bxs3i")
+metadata/_custom_type_script = "uid://cnmuu851a8yku"

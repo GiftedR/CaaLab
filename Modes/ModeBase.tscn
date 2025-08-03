@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcp6c1mp53nu3"]
+
+[ext_resource type="Script" uid="uid://ba4qq6eeevnwu" path="res://Modes/ModeBase.cs" id="1_34dvy"]
+
+[node name="ModeBase" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_34dvy")
+metadata/_custom_type_script = "uid://ba4qq6eeevnwu"

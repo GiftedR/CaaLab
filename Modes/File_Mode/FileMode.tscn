@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://b71eyohtm06t7"]
+
+[ext_resource type="PackedScene" uid="uid://bcp6c1mp53nu3" path="res://Modes/ModeBase.tscn" id="1_jmlpt"]
+[ext_resource type="Script" uid="uid://cadqrm6mxqvge" path="res://Modes/File_Mode/FileMode.cs" id="2_gwo7c"]
+
+[node name="ModeBase" instance=ExtResource("1_jmlpt")]
+script = ExtResource("2_gwo7c")

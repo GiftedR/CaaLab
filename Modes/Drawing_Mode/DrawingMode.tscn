@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://ifxpc73wha27"]
+
+[ext_resource type="PackedScene" uid="uid://bcp6c1mp53nu3" path="res://Modes/ModeBase.tscn" id="1_vlp62"]
+[ext_resource type="Script" uid="uid://dvghohyc18gmo" path="res://Modes/Drawing_Mode/DrawingMode.cs" id="2_q4llg"]
+
+[node name="ModeBase" instance=ExtResource("1_vlp62")]
+script = ExtResource("2_q4llg")
